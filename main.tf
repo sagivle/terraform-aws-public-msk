@@ -1,3 +1,7 @@
+data "aws_msk_cluster" "msk" {
+  cluster_name = "${var.deploy_name}"
+}
+
 locals {
   brokers = "${sort(split("," , (replace(join(",", aws_msk_cluster.msk.*.bootstrap_brokers_tls), ":9094", "" ))))}"
   zookeeper = "${sort(split("," , (replace(join(",", aws_msk_cluster.msk.*.zookeeper_connect_string), ":2181", "" ))))}"

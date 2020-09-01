@@ -1,6 +1,6 @@
 # AWS Public MSK Terraform 0.11 module
 
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/sagivle/erraform-aws-public-msk)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/sagivle/terraform-aws-public-msk)
 
 
 Terraform module that exposes an existing MSK cluster to the internet.

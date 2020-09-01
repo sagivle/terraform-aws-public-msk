@@ -9,7 +9,7 @@ Terraform module that exposes an existing MSK cluster to the internet.
 
 ```hcl
 module "public_msk" {
-  source = "sagivle/erraform-aws-public-msk/aws"
+  source = "sagivle/terraform-aws-public-msk/aws"
 
   deploy_name      = "my_msk"
   module_enabled   = true

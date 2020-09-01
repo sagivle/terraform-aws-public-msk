@@ -1,4 +1,4 @@
-# AWS Public MSK Terraform module
+# AWS Public MSK Terraform 0.11 module
 
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/sagivle/erraform-aws-public-msk)
 
